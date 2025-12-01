@@ -138,7 +138,7 @@ export function AdventureCard({
   return (
     <Card
       className="
-        flex flex-col m-auto min-w-md
+        flex flex-col m-auto min-w-xs lg:min-w-md
         transition-all duration-300 
         hover:scale-[1.03] 
         hover:shadow-xl 
