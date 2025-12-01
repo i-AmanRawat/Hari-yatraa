@@ -189,18 +189,6 @@ export default function Navbar({
               </Link>
 
               <Link
-                href="/restaurants"
-                className={cn(
-                  buttonVariants({
-                    variant: "ghost",
-                  }),
-                  "w-full justify-start text-left"
-                )}
-              >
-                Restaurants
-              </Link>
-
-              <Link
                 href="/tours"
                 className={cn(
                   buttonVariants({
@@ -213,7 +201,7 @@ export default function Navbar({
               </Link>
 
               <Link
-                href="/activities"
+                href="/adventure"
                 className={cn(
                   buttonVariants({
                     variant: "ghost",
@@ -221,7 +209,7 @@ export default function Navbar({
                   "w-full justify-start text-left"
                 )}
               >
-                Activities
+                Adventure
               </Link>
 
               <Link
